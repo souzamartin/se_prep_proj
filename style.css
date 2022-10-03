@@ -1,3 +1,16 @@
 body {
     background: rgb(114, 168, 255);
+    font-family: sans-serif;
   }
+
+#maintitle {
+  text-align: center;
+}
+
+.box {
+  background: rgba(0, 0, 255, 0.25);
+}
+
+h3 {
+  font-variant: small-caps;
+}

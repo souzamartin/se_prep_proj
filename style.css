@@ -7,10 +7,23 @@ body {
   text-align: center;
 }
 
-.box {
-  background: rgba(0, 0, 255, 0.25);
+.boxtitle {
+  font-variant: small-caps;
+  padding-top: 1px;
+  padding-left: 10px;
 }
 
-h3 {
-  font-variant: small-caps;
+.box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 255, 0.25);
+  width: 50%;
 }
+
+.box p {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
